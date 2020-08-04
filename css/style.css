@@ -1,0 +1,16 @@
+<?php 
+	$fonts = "Timesnewroman";
+	$bgcolor = "#444";
+	$fontcolor = "#fff";
+?>
+
+<style>
+		body {font-family: <?php echo $fonts;?>}
+		.headeroption,.footeroption {
+			background: <?php echo $bgcolor; ?>; color:<?php echo $fontcolor;?>; text-align: center; padding: 20px
+		}
+		.headeroption h2, .footeroption h2{margin: 0}
+		.maincontent{
+			min-height: 400px; padding: 20px; margin: 0 auto; background:<?php echo "#ddd"?>;}
+		p{margin: 0}
+</style>
